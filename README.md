@@ -1,11 +1,11 @@
 # EXECUTION-OF-LOGIC-GATES-USING-PLC-LADDER-PROGRAM
 
 
- # NAME : HAASHIKA SINOU S
- # REGISTER NUMBER : 212224110018
- # DEPARTMENT : CSE-IOT
- # YEAR : III
- # DATE : 26-10-2026
+ ## NAME : HAASHIKA SINOU S
+ ## REGISTER NUMBER : 212224110018
+ ## DEPARTMENT : CSE(IOT)
+ ## YEAR : 3
+ ## DATE : 26.10.26
 
  
 # Aim:
@@ -25,43 +25,49 @@ Power Supply - Appropriate power supply for PLC and peripherals.
 Logic gates are the fundamental building blocks of digital circuits, and they process binary inputs to produce a binary output. In PLC programming, these logic gates can be implemented using ladder logic, which is a graphical programming language resembling electrical relay logic.
 
 # Basic Logic Gates:
-## AND Gate:
-
-<img width="327" height="250" alt="image" src="https://github.com/user-attachments/assets/0ff4023b-ca2a-4b80-9fd9-838db40e76ff" />
+AND Gate:
 
 Function: Outputs HIGH only when all inputs are HIGH.
 Ladder Logic: Represented by two or more normally open contacts in series.
-## OR Gate:
-
-<img width="324" height="254" alt="image" src="https://github.com/user-attachments/assets/fd306b8f-c25b-4a78-a640-ec9c952ea425" />
+OR Gate:
 
 Function: Outputs HIGH when at least one input is HIGH.
 Ladder Logic: Represented by two or more normally open contacts in parallel.
-## NOT Gate:
-
-<img width="214" height="159" alt="image" src="https://github.com/user-attachments/assets/75941921-97d4-4a16-929c-682f25e993ec" />
+NOT Gate:
 
 Function: Outputs the inverse of the input signal.
 Ladder Logic: Represented by a normally closed contact.
-## NAND Gate:
-
-<img width="333" height="250" alt="image" src="https://github.com/user-attachments/assets/204ab996-7c11-4799-ab30-e5546e1061c0" />
+NAND Gate:
 
 Function: Outputs LOW only when all inputs are HIGH.
 Ladder Logic: An AND gate followed by a NOT gate.
-## NOR Gate:
-
-<img width="330" height="249" alt="image" src="https://github.com/user-attachments/assets/84ad6f45-9bb0-4be2-80dc-cb327d73cddb" />
+NOR Gate:
 
 Function: Outputs LOW when at least one input is HIGH.
 Ladder Logic: An OR gate followed by a NOT gate.
-## XOR Gate:
-
-<img width="326" height="248" alt="image" src="https://github.com/user-attachments/assets/b025d37f-171c-4107-9268-16d7b79537c9" />
+XOR Gate:
 
 Function: Outputs HIGH when an odd number of inputs are HIGH.
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.
+
 # Truth Tables:
+## AND GATE:
+ <img width="327" height="250" alt="image" src="https://github.com/user-attachments/assets/5cf9dd15-a6e2-4d1e-880d-d113ef1f2d0d" />
+ 
+## OR GATE:
+ <img width="324" height="254" alt="image" src="https://github.com/user-attachments/assets/1e6935d4-47f8-4452-aecb-05fe4197dac7" />
+ 
+## NOT GATE:
+ <img width="214" height="159" alt="image" src="https://github.com/user-attachments/assets/8321a8ed-43b3-4e1b-88de-a151e3f22772" />
+ 
+## NAND GATE:
+ <img width="333" height="250" alt="image" src="https://github.com/user-attachments/assets/ebaa3105-cfe5-474e-b809-6c83415a019a" />
+ 
+## NOR GATE:
+ <img width="330" height="249" alt="image" src="https://github.com/user-attachments/assets/7fc0c378-9e21-42bb-bd6a-e950b9323c17" />
+ 
+## XOR GATE:
+ <img width="326" height="248" alt="image" src="https://github.com/user-attachments/assets/99d7a304-789c-4570-91a9-685e225d0996" />
  
 # Procedure:
 Setup the PLC Programming Environment:
@@ -92,38 +98,36 @@ XOR Gate: The output should light up when exactly one input is HIGH.
 
 
 # SIMULATION RESULTS 
-
 ## AND GATE:
-
-<img width="717" height="136" alt="image" src="https://github.com/user-attachments/assets/bd71aa72-bc61-47ce-b83c-4b7dc7c04643" />
+<img width="700" height="125" alt="Screenshot 2026-01-27 115053" src="https://github.com/user-attachments/assets/6aa44777-aa4b-472e-a4f4-b5e5a75a0f28" />
 
 ## OR GATE:
-
-<img width="668" height="212" alt="image" src="https://github.com/user-attachments/assets/3f5f1141-ee83-47d1-960e-41959b4c07f8" />
+<img width="701" height="209" alt="Screenshot 2026-01-27 115104" src="https://github.com/user-attachments/assets/95b50144-0418-43c0-8217-f87991c1000b" />
 
 ## NOT GATE:
-
-<img width="718" height="136" alt="image" src="https://github.com/user-attachments/assets/ec289bda-9a31-4522-84e7-985812171699" />
+<img width="645" height="141" alt="Screenshot 2026-01-27 115119" src="https://github.com/user-attachments/assets/1b1851ce-4a80-482b-b3ed-8b0c7576c9ec" />
 
 ## NAND GATE:
-
-<img width="710" height="152" alt="image" src="https://github.com/user-attachments/assets/3d8e671a-a299-4257-903a-d40844f9715f" />
+<img width="679" height="133" alt="Screenshot 2026-01-27 115142" src="https://github.com/user-attachments/assets/ebddf1d6-357e-4121-bebf-55332ab2db43" />
+<img width="667" height="130" alt="Screenshot 2026-01-27 115154" src="https://github.com/user-attachments/assets/ba24ac62-ee5c-4279-9f4b-c653665b4123" />
 
 ## NOR GATE:
-
-<img width="705" height="216" alt="image" src="https://github.com/user-attachments/assets/65b280a3-bfe0-40ca-a9d8-d26bd37f69a0" />
+<img width="665" height="134" alt="Screenshot 2026-01-27 115205" src="https://github.com/user-attachments/assets/55da8104-35a3-4b6e-8016-5f83f2ab332d" />
+<img width="695" height="130" alt="Screenshot 2026-01-27 115213" src="https://github.com/user-attachments/assets/455fb204-f7d7-43a1-8750-41896a74e80a" />
 
 ## XOR GATE:
+<img width="683" height="246" alt="Screenshot 2026-01-27 115221" src="https://github.com/user-attachments/assets/528f18c9-051f-4dc3-aa55-fa7fe768e961" />
 
-<img width="722" height="246" alt="image" src="https://github.com/user-attachments/assets/6929a959-17d0-46d3-b9b3-c1cdd6bae933" />
+## DEVICE MONITOR TABLE:
+<img width="1703" height="576" alt="image" src="https://github.com/user-attachments/assets/cfaed724-8ec7-45a0-aa75-298769b3e768" />
+<img width="1918" height="1020" alt="image" src="https://github.com/user-attachments/assets/29b0192f-dda4-4ba4-9f33-f5ea308b6144" />
+<img width="1917" height="987" alt="image" src="https://github.com/user-attachments/assets/575ad735-34be-4d70-b690-2008fbfe9383" />
+<img width="1917" height="993" alt="image" src="https://github.com/user-attachments/assets/39e77b52-39fe-469f-850e-d51c54ca2482" />
 
-## MONITOR TABLE:
 
-<img width="1917" height="733" alt="image" src="https://github.com/user-attachments/assets/7678eccd-0090-4be1-a8a2-f8bdc6b5fab9" />
 
 
 # Results:
-
 The ladder logic programs for each logic gate were successfully implemented and simulated.
 The outputs observed matched the expected results as per the truth tables of the respective logic gates.
 This experiment demonstrates the effective use of PLCs in executing digital logic operations, which are fundamental to industrial control systems.
